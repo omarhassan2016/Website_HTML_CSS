@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coffee Survey</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<header>
+<h1>All about coffee</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="roasting.html">Roasting</a></li>
+<li><a href="grinding.html">Grinding</a></li>
+<li><a href="brewing.html">Brewing</a></li>
+<li><a href="drinks.html">Drinks</a></li>
+<li><a href="survey.html">Coffee survey</a></li>
+</ul>
+</nav>
+</header>
+<h1>Coffee Survey</h1>
+<aside>
+<figure>
+<img src="images/espresso.jpg" alt="a cup of espresso" />
+</figure>
+</aside>
+<form action="form-submit.php" method="get">
+<fieldset>
+<legend>Personal infirmation</legend>
+<label for="first-name">Your name:</label><br/>
+<input type="text" name="first name" autofocus required id="first-name"/>
+<br/>
+<label for="email">Email address:</label><br/>
+<input type="email" name="email" placeholder="Enter valid email" required id="email"/>
+</fieldset>
+<fieldset>
+<legend>Your Coffee Preferences:</legend>
+Tell us your coffee preparationt methods.<br/>
+<textarea type="message" id="message" cols="50" rows="6"></textarea>
+
+<br/>
+Do you grind your own beans?<br/>
+<input type="radio"> yes</br>
+<input type="radio"> no
+<br/>
+How do you drink your coffee?<br/>
+<input type="checkbox">with sugar<br/>
+<input type="checkbox">with cream
+<br/>
+What is your favorite coffee drink?
+<br/>
+<select name="dropdown" id="dropdown">
+<option value="o1">please select a drink</option>
+<option value="o2">drip coffee</option>
+<option value="o3">french press</option>
+<option value="o4">espresso</option>
+<option value="o5">latte</option>
+<option value="o6">flavored</option>
+</select>
+</fieldset>
+<footer>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="roasting.html">Roasting</a></li>
+<li><a href="grinding.html">Grinding</a></li>
+<li><a href="brewing.html">Brewing</a></li>
+<li><a href="drinks.html">Drinks</a></li>
+<li><a href="survey.html">Coffee survey</a></li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
